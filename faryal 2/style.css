@@ -1,0 +1,252 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* changed to black */
+    color: #fff;
+  }
+  
+  /* Header */
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #d6001c;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('https://www.kfcpakistan.com/images/hero-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: white;
+    color: #d6001c;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Menu Section */
+  .popular-items, .additional-menu {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .popular-items h2, .additional-menu h2 {
+    font-size: 36px;
+    color: #d6001c;
+    margin-bottom: 40px;
+  }
+  
+  .menu-items {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #111;
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(255,255,255,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    color: #fff;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    font-size: 22px;
+    color: #ff2c2c;
+    margin: 15px 0 10px;
+  }
+  
+  .card p {
+    font-size: 15px;
+    color: #ccc;
+    padding: 0 10px 15px;
+  }
+  
+  .card button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #d6001c;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .card button:hover {
+    background-color: #a80510;
+  }
+  
+  /* Pickup Section (like KFC Pakistan's pickup cards) */
+  .pickup-options {
+    padding: 60px 20px;
+    background-color: #111;
+    text-align: center;
+    color: white;
+  }
+  
+  .pickup-options h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .pickup-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .pickup-card {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 4px 12px rgba(255,255,255,0.1);
+    transition: transform 0.3s;
+    color: white;
+  }
+  
+  .pickup-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pickup-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .pickup-card h3 {
+    margin: 10px 0;
+    color: #ff2c2c;
+    font-size: 20px;
+  }
+  
+  .pickup-card p {
+    color: #ccc;
+    font-size: 14px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #202020;
+    color: #fff;
+    padding: 40px 20px 20px;
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    margin: 20px;
+  }
+  
+  .footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #fff;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons a img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    color: #ccc;
+  }
+  
